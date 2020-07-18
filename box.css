@@ -4,8 +4,5 @@ html, body, div{
     box-sizing: border-box;
 }
 #box{
-    text-align: center;
-    font-family: sans-serif;
-    padding-top: 100px;
     border: 5px solid red;
 }

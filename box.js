@@ -4,7 +4,6 @@ $(function(){
         $("#box").css({
             height: window.innerHeight,
             width: window.innerWidth,
-            border: "5px solid red"
         })
     }
 
