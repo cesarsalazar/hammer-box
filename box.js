@@ -1,4 +1,4 @@
-$(function(){
+$( () => {
 
     const shapeBox = () => {
         $("#box").css({
@@ -7,12 +7,12 @@ $(function(){
         })
     }
 
-    $("#box").hammer().bind("tap pan pinch", function(e){
+    $("#box").hammer().bind("tap pan pinch", (e) => {
         shapeBox();
     })
 
-    $(window).resize(function(e){
-        setTimeout(function(){
+    $(window).resize((e) => {
+        setTimeout( () => {
             shapeBox();
         },100)
     })
